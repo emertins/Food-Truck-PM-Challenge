@@ -1,0 +1,17 @@
+As a service i want to add the ability for users to be able to register their accounts so that when they use the API
+
+Background:
+User with no roles
+Administrators with admin role
+
+Passwords Salt + Hash (SHA-256)
+
+New endpoint: /foodtrucks/user
+
+
+
+Given: I access the user registration endpoint
+when: I register the account
+then: I should be prompted to enter password for the created user
+
+
