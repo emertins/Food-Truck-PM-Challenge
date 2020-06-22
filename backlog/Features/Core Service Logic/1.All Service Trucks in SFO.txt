@@ -3,12 +3,12 @@ As a developer I want an endpoint to get all the trucks out of SFO so that the o
 
 
 given: I am an authenticated user
-when: I request all the trucks from SFO using the GET method from the /footrucks endpoint
+when: I request all the trucks from SFO using the GET method from the /foodtrucks endpoint
 then: I should get an output of all the food trucks in SFO which include UUID, lat and long in decimal notation , permit=approved, hours, food items,  and names of the food truck in JSON format
 
 
 Example:
-Curl: http://www.funchallange.com/footrucks
+Curl: http://www.funchallange.com/foodtrucks
 Response: 200
 Sample output:
 
