@@ -1,4 +1,4 @@
-As a developer I want an endpoint to get all the food trucks out of SFO so that the output is generated in a JSON with the food trucks near the location queried
+As a developer I want an endpoint to get all the food trucks given a location so that the output is generated in a JSON with the food trucks near the location queried
 
 AC:
 
@@ -32,3 +32,5 @@ given: I am an authenticated user
 when: I request trucks within 5 mile location AND there is less than 5 food trucks
 then: I should output the number of at least 5 food trucks outside of the 5 mile perimeter
 
+
+Note that this user story does not include the address to lat and long translation, that will be handled by the bing maps integration.

@@ -1,0 +1,4 @@
+The food truck by location API will make restful calls to the bing API endpoint 
+When providing the lat and long to the geolocation api from bing maps it will resolve to an approximate address.
+If the food truck location api needs to convert an address request, it will send the request directly to the API and bing maps will resolve it with a LAT/LONG entry that then 
+the Foodtruck API can search food trucks near the address entered by the user.

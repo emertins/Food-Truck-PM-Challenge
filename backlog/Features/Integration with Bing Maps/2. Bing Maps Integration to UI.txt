@@ -1,0 +1,12 @@
+This story is meant for the integration of the bing maps into the Food truck location UI
+When a user enters an address, specific food item, the truck name , lat / long 
+The UI will display the following:
+For address or Lat LONG within a 5 mile radius
+5 food trucks as minimum will be displayed as overlay on the bing map view of SFO
+For food item
+The map will display all the points within zoomed within 5 miles of the epicenter of SFO
+
+For a specific food truck or similar sounding food truck name:
+Bing map will show zoomed out map of SFO area with all the approximate points of the food trucks with the names of the food truck overlayed
+
+Location of bing map ( look at rapid prototype) 
