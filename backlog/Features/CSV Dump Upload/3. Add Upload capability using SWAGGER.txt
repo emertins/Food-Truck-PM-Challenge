@@ -1,0 +1,7 @@
+
+As an authenticated user with the administrator role , the administrator can use the swagger page and access the newly created endpoint
+which requests the location of the .csv file ( either the user's computer or from url) 
+
+at this point once the action is taken on the endpoint , it will either use the put method or post depending on the situation (doing a full update, or adding a new record line by line)  it the endpoint will then  transform the .csv to the data model supported by the data model on the food truck api.
+
+
