@@ -1,4 +1,4 @@
-# challange
+# challenge
 
 Organization of the challenge as Follows
 
