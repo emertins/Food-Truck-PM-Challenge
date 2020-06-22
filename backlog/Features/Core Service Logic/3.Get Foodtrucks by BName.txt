@@ -1,0 +1,31 @@
+As a developer I want an endpoint to get all the food trucks out of SFO with the name of a business so that the output is generated in a JSON with the food trucks near the location queried
+
+AC:
+
+given: I am an authenticated user
+when: I request food trucks with a Business Name
+then: I should get an output of all the food trucks with the inputed name 
+
+given: I requested the food trucks with the name M M Catering
+when: viewing the JSON output 
+then: I should see the dayhours, fooditems, lat and long, and the Business name of the food truck in the output
+
+Example:
+Curl: 'https://www.funchallange.com/foodtrucks/bname/MMCatering/'	
+Response: 200
+Sample output:
+
+{ "foodtrucks" : [
+{ 	"dayshours":"Fri/Sat/Sun:10AM-6PM",
+        "FoodItems": "Cold Truck: Sandwiches: fruit: snacks: candy: hot and cold drinks"
+        "Lat":37.7665109269083
+        "Long":-122.40926014493
+	"BBName":"M M Catering"
+        "PermitStatus":"Approved"
+        "uuid": 26
+},
+...]
+}
+
+
+

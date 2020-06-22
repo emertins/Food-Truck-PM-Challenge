@@ -1,0 +1,24 @@
+as a developer I want to add a post method to the /foodtrucks endpoint so that I can add or update a food truck to the collection
+
+
+
+curl -x POST
+-H "Content-Type:application/JSON"
+-d '{ 	"dayshours":"Fri/Sat/Sun:10AM-6PM",
+        "FoodItems": "Cold Truck: Sandwiches: fruit: snacks: candy: hot and cold drinks"
+        "Lat":37.7678524427181
+        "Long":-122.416104892532
+	"BBName":"New Truck"
+}
+'https://www.funchallange.com/footrucks'
+
+
+Note for expediency the story will use the PUT method to update any previous entries. 
+
+Given I need to enter a food truck into the DB
+When: I enter the food truck information
+then: I should requred to enter daysours,fooditems,LAT,LONT,BBName if not the API will reject the entry
+
+Note that this endpoint will also support large number of records as it will be used in the Swagger page
+
+

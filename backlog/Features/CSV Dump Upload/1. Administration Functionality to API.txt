@@ -1,0 +1,8 @@
+Since the core API was built without a control to update the DB directly 
+this administration functionlity will serve the following
+
+1) Create a new user type and assign it a role of Administrator
+2) Create the ability for the new role to manipulate the api directly to do CRUD operations ( Create, Read, Update, Delete) all items in the food truck database
+This administration functionality will convert the .CSV file output and do a transform on the .csv on the data model being used. 
+
+This user story will serve to do the above.

@@ -1,0 +1,2 @@
+This user story is for the output in bing maps.
+Note to carry out this user story the integration with bing maps needs to occur as a precursor to this user story being actioned.

@@ -1,0 +1,2 @@
+This user story is to create the search funcitonality on the UI. The output will show 5 trucks in a line list format.
+Reference rapid prototype
