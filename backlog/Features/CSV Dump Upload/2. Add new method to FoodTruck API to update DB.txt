@@ -1,7 +1,8 @@
 as a developer I want to add a post method to the /foodtrucks endpoint so that I can add or update a food truck to the collection
 
 
-
+ Example call to the new endpoint: 
+ 
 curl -x POST
 -H "Content-Type:application/JSON"
 -d '{ 	"dayshours":"Fri/Sat/Sun:10AM-6PM",
@@ -10,7 +11,7 @@ curl -x POST
         "Long":-122.416104892532
 	"BBName":"New Truck"
 }
-'https://www.funchallange.com/footrucks'
+'https://www.funchallange.com/foodtrucks'
 
 
 Note for expediency the story will use the PUT method to update any previous entries. 
