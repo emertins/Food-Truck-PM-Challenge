@@ -10,7 +10,7 @@ curl -x POST
         "Long":-122.416104892532
 	"BBName":"New Truck"
 }
-'https://www.funchallange.com/footrucks'
+'https://www.funchallange.com/foodtrucks'
 
 
 Note for expediency the story will use the PUT method to update any previous entries. 
